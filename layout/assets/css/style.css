@@ -1,0 +1,158 @@
+.container{
+	
+	margin:auto;
+	margin-bottom: 40px;
+	background-color: #ccc;
+}
+
+.menu{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.menu a{
+	width: 1020px;
+	padding: 10px;
+	background: #fa3616;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 5px;
+	border-collapse: collapse;
+
+}
+
+.utama {
+	width: 1020px;
+	margin: auto;
+	background-color: #ccc;
+}
+
+.header{
+	margin-bottom: 15px;
+}
+
+.menu a:hover{
+	background: lightgreen;
+}
+
+.main{
+	border: 0px;
+	margin-left: 10px;
+
+}
+
+.footer{
+	margin-top: 270px;
+	padding: 10px;
+	background-color: lightblue;
+}
+
+h2{
+		margin-top: 20px;
+
+}
+
+.tabletampil {
+	margin-left: 10px;
+	border: 1px solid #000000;
+	padding: 8px;
+  	background-color: white;
+	border-radius: 5px;
+  	width: 90%;
+  	border-collapse: collapse;
+}
+
+.tabletampil, th{
+	border: 1px solid #000000;
+	background-color: lightblue;
+}
+
+.tabletampil, td {
+	padding: 5px;
+	margin-top: 20px;
+	border: 1px solid #000000;
+}
+
+.tabletampil, tr{
+	text-align: center;
+  	width: 90%;
+	background-color: white;
+	padding: 10px;
+	border: 1px solid #000000;
+}
+
+button{
+	margin-left: 10px;
+	padding: 5px;
+	background-color: blue;
+	font-weight: bold;
+}
+
+button a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+form {
+	margin: 0 auto;
+	width: 960px;
+}
+
+input {
+	display: inline-block;
+	vertical-align: center;
+}
+
+input:required:invalid, input:focus:invalid, input:required:valid{
+	background-position: 97% center;
+	background-repeat: no-repeat;
+}
+
+input[type=submit], input[type=reset]{
+	background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+	border: 1px solid #999;
+	margin: 4px 10px;
+	padding: 5px;
+	width: 100px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+	cursor: pointer;
+}
+
+input[type=submit]:active, input[type=reset]:active{
+	background: #D4D4D4;
+}
+
+.control-group > label{
+	display: inline-block;
+	text-align: right;
+	width: 20%;
+}
+
+select, input[type=text], input[type=password], input[type=date]{
+	margin: 5px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	padding: 5px;
+	width: 250px;
+}
+
+/*.tisi{
+	margin-top: 20px;
+	background-color: #ccc;
+	padding: 10px;
+	border: 0px;
+}
+
+.trisi{
+	background-color:#ccc;
+	padding: 10px;
+	border: 0px;
+}
+
+.tdisi{
+	text-align: left;
+	border: 0px;
+	width: 50%;
+}*/

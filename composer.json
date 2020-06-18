@@ -1,0 +1,19 @@
+{
+    "name": "mega_andriani/uts-mega",
+    "description": "UTS Web Lanjutan Prodi Sistem Informasi UIN Sumatera Utara",
+    "type": "project",
+    "require": {
+        "php": "^7.4"
+    },
+    "authors": [
+        {
+            "name": "Mega Andriani",
+            "email": "mega.andriani@uinsu.ac.id"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "app\\" : "app/"
+        }
+    }
+}
